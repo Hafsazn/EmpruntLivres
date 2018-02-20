@@ -1,0 +1,79 @@
+body{
+	margin-top: 0;
+	padding: 0;
+	/*background: url(wallpaper.jpg) ;*/
+	background-size: auto;
+	background-position: center;
+	font-family: serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+
+}
+.diaporama{
+	margin: 0 auto;
+	width: 1365px;
+	height: 768px;
+	background-image: url(wallpaper.jpg);
+
+	-webkit-animation-name: diaporama;
+	-webkit-animation-duration: 9s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+
+	animation-name: diaporama;
+	animation-duration: 9s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;	
+}
+
+@-webkit-keyframes diaporama{
+	0%{background-image: url(wallpaper.jpg);}
+	33%{background-image: url(city.jpg);}
+	60%{background-image: url(new-york.jpg);}
+	90%{background-image: url(Victoria.jpg);}
+}
+
+@keyframes diaporama{
+	0%{background-image: url(wallpaper.jpg);}
+	33%{background-image: url(city.jpg);}
+	60%{background-image: url(new-york.jpg);}
+	90%{background-image: url(Victoria.jpg);}
+}
+div.PremPage{
+	
+	text-align: center;
+	width: 340px;
+	height: 340px;
+	background: rgba(0,0,0,0.5);
+	color:#fff;
+	top:60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	font-weight: 900;
+}
+a{
+	color: #fff;
+	text-decoration: underline;
+}
+div.title{
+	color: #E54501;
+	size: 80px;
+	top:10%;
+	font-style: oblique;
+	line-height: 0.6;
+
+
+}
+h1{
+	margin-left: 480px;
+
+}
+h2{
+	margin-left: 480px;
+}

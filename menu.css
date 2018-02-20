@@ -1,0 +1,33 @@
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none; /*enlever les puces*/
+    background-color: #5A9B92;
+}
+ 
+ nav li {
+    display:inline-block; /* placer la liste horizontalement*/
+    margin:10px;
+    padding: 0px;
+    width: 200px; /*largeur de l'espace*/
+    height: 40px; /*hauteur de l'espace*/
+    border-right: 1px solid #CCCCCC; /* bordures et sa couleur*/
+    text-align: center; /* centrer les elements du menu horizontalement*/
+    line-height: 40px; /* centrer verticalement meme valeur que height*/
+    
+ }
+nav li a {
+    display: block; /* user peut cliquer sur tt l'espace de l'element*/
+    text-decoration: none; /* pas de soulignage*/
+    color: #FFFFFF; /*couleur de texte blanche*/
+    
+}
+nav li:hover /* Au dessus*/{
+    background-color: #03332C; /*changer de couleur lorsqu'on passe la souris au dessus*/
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #B0E2DB;
+}
