@@ -1,0 +1,138 @@
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none; /*enlever les puces*/
+    background-color: #F7BB90;
+}
+ 
+ nav li {
+    display:inline-block; /* placer la liste horizontalement*/
+    margin:0px;
+    padding: 0px;
+    width: 200px; /*largeur de l'espace*/
+    height: 40px; /*hauteur de l'espace*/
+    border-right: 1px solid #CCCCCC; /* bordures et sa couleur*/
+    text-align: center; /* centrer les elements du menu horizontalement*/
+    line-height: 40px; /* centrer verticalement meme valeur que height*/
+    
+ }
+  nav li a {
+    display: block; /* user peut cliquer sur tt l'espace de l'element*/
+    text-decoration: none; /* pas de soulignage*/
+    color: #FFFFFF; /*couleur de texte blanche*/
+    
+}
+nav li:hover /* Au dessus*/{
+    background-color: #2F1B0C; /*changer de couleur lorsqu'on passe la souris au dessus*/
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #B0E2DB;
+}
+body
+{
+ margin: 0;
+ padding: 0;
+ background: url(Fondecran.png);
+ background-size: cover;
+ font-family: sans-serif;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+
+}
+
+.Login
+{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 5px;
+    width: 550px;
+    height: 520px;
+    box-sizing: border-box;
+    background: rgba(1,1,1,0.5);
+    
+       
+}
+.user{
+     
+     width: 100px;
+     height: 100px;
+     border-radius: 50%; /*image ronde*/
+     overflow: hidden;
+     position: absolute;
+     top: calc(-100px/2);
+     left: calc(50% - 50px);
+    
+    
+}
+h1
+{
+  
+  margin: 60px;
+  padding: 0px 0px 20px;
+  color: #F7BB90;
+  text-align: center;
+  
+  
+     
+}
+
+.Login p {
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    color: #B15D21;
+    font-size:  20px;
+}
+.Login input{
+    width: 75%;
+    margin-bottom:  30px;
+}
+.Login input[type="text"],
+.Login input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+       
+}
+::placeholder
+{
+    color: rgba(255,255,255,.5);
+}
+
+.Login input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 85%;
+    color: #fff;
+    font-size: 16px;
+    background: #B15D21;
+    cursor: pointer;
+    border-radius: 50px;
+      
+}
+.Login input[type="submit"]:hover
+{
+    background: #2F1B0C;
+    color:#fff;
+    
+}
+.Login a
+
+{
+    color: #F7BB90;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}

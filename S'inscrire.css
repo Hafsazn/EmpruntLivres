@@ -1,0 +1,50 @@
+body{
+	margin-top: 0;
+	padding: 0;
+	background: url(wallpaper.jpg) ;
+	background-size: auto;
+	background-position: center;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+}
+h1{
+	color: #FF4C0B;
+	text-align: center;
+}
+::placeholder
+{
+    color: rgba(255,255,255,.5);
+}
+
+form{
+	
+}
+.inscription input[type="text"] {
+ border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.table{
+	width: 600px;
+    height: 700px;
+	color: #fff;	
+	background: rgba(0,0,0,0.5);	
+}
+
+
+
+.valider{
+	background-color: #FF4C0B;
+	cursor: pointer; 
+	text-decoration: none;
+	border:none;
+	-webkit-border-radius: 8px;
+	width: 70%;
+	padding: 6px;
+}
